@@ -93,6 +93,7 @@ a{
 .header__hero{
     display:flex;
     gap:76px;
+    position:relative;
     /* background-image: linear-gradient(to right, rgba(255,0,0,0)50%, #4DBB9A,#fff); */
 }
 .header-hero__media--heading{
@@ -180,7 +181,29 @@ a{
     margin-top:100px;
     box-shadow: 0 0 100px #4DBB9A;
 }
-.hea
+.header__parterm{
+    position:absolute;
+    display: inline-block;
+
+}
+.header__parterm:first-of-type{
+    top:28px;
+    left:297px;
+}
+.header__parterm:nth-of-type(2){
+    top:36px;
+    left:255px;
+}
+.header__parterm:nth-of-type(3){
+    right:69px;
+    bottom: 100px;
+}
+.header__parterm:last-of-type{
+    right:32px;
+    bottom: 134px;
+}
+
+
 
 
 
