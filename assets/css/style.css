@@ -287,6 +287,7 @@ a{
     align-items: end;
 }
 .section__title{
+    max-width: 457px;;
     margin-top: 12px;
     color: var(--Primary-color-black, #152427);
     font-size: 3rem;
@@ -636,6 +637,7 @@ a{
     justify-content: space-between;
 }
 .video__above--desc{
+    max-width: 590px;;
     color: var(--Scondery-color-gray, #6A8383);
     /* Paragraph/h2 18px medium */
     font-family: "Public Sans";
