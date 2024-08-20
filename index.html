@@ -10,14 +10,37 @@
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body style="height: 10000px;">
+    <nav class="navbar fixed">
+                    <img src="./assets/img/logo main.svg" alt="logo main" class="navbar__logo">
+                    <ul class="navbar__list">
+                       <li class="navbar__item">
+                        <a href="#!" class="navbar__item--link navbar__item--active">Home</a>
+                       </li>
+                       <li class="navbar__item">
+                        <a href="#!" class="navbar__item--link">About</a>
+                       </li>
+                       <li class="navbar__item">
+                        <a href="#!" class="navbar__item--link">Blog</a>
+                       </li>
+                       <li class="navbar__item">
+                        <a href="#!" class="navbar__item--link">Contact</a>
+                       </li>
+                    </ul>
+                    <div class="header__action">
+                        <button class="btn header__action--btn">Sign Up</button>
+                    </div>
+                </nav>
     <header class="header">
         <div class="container">
-            <nav class="navbar">
+            <!-- <nav class="navbar">
                 <img src="./assets/img/logo main.svg" alt="logo main" class="navbar__logo">
                 <ul class="navbar__list">
                    <li class="navbar__item">
@@ -36,7 +59,7 @@
                 <div class="header__action">
                     <button class="btn header__action--btn">Sign Up</button>
                 </div>
-            </nav>
+            </nav> -->
             <div class="header__line"></div>
             <section class="header__hero">
                 <section class="header-hero__media">
@@ -67,6 +90,40 @@
         </div>
 
     </header>
+    <main>
+        <!-- branch -->
+        <section class="branch">
+            <div class="container">
+                <figure class="branch__list">
+                    <div class="branch__item">
+                        <span class="branch__item--name branch__item--name-google">Google</span>
+                    </div>
+                    <div class="branch__item">
+                        <img src="./assets/img/mask 1.svg" alt="" class="branch__item--logo">
+                        <span class="branch__item--name branch__item--name-slack">slack</span>
+                    </div>
+                    <div class="branch__item">
+                        <img src="./assets/img/discord.svg" alt="" class="branch__item--logo">
+                        <span class="branch__item--name branch__item--name-agworld">Agworld</span>
+                    </div>
+                    <div class="branch__item">
+                        <span class="branch__item--name branch__item--name-rio">RioTinto</span>
+                    </div>
+                    <div class="branch__item">
+                        <img src="./assets/img/mask 2.svg" alt="" class="branch__item--logo">
+                        <span class="branch__item--name branch__item--name-heroku">HEROKU</span>
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <!-- service -->
+         <section class="service">
+            <div class="container">
+            
+            </div>
+         </section>
+
+    </main>
     
 </body>
 </html>

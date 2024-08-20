@@ -37,8 +37,17 @@ a{
     margin-right:auto;
 }
 .navbar{
+    z-index: 999;
     display:flex;
     align-items: center;
+}
+.fixed{
+    position: sticky;
+    top:0;
+    width: 1140px;
+    min-width:calc(100% - 48px);
+    margin-left:auto;
+    margin-right:auto;
 }
 .navbar__list{
     margin-left:406px;
@@ -202,9 +211,54 @@ a{
     right:32px;
     bottom: 134px;
 }
-
-
-
+/* branch */
+.branch{
+    margin-top: 43px;
+    border-radius: 100.5px;
+    background: var(--Scondery-color-light-green, #E2EDDF);
+}
+.branch__item--name-google{
+    color: var(--Primary-color-black-green, #143C3C);
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+.branch__item--name-slack{
+    color: var(--Primary-color-black-green, #143C3C);
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.branch__item--name-agworld{
+    color: #163C35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+.branch__item--name-rio{
+    color: var(--Primary-color-black-green, #143C3C);
+    font-family: "Sonsie One";
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.branch__item--name-heroku{
+    color: var(--Primary-color-black-green, #143C3C);
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
+}
+.branch__list{
+    padding: 76px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.branch__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.branch__item--logo:hover,
+.branch__item--name:hover{
+    opacity: 0.5;
+}
 
 
 
